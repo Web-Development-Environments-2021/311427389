@@ -1,7 +1,50 @@
 #menu
 {
 	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+	width: 98%;
+	height: 40px;
+	background: rgb(245, 180, 180);
+	text-align: center;
+	font-size:xx-large;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.mainMenu {
+	white-space: nowrap;
+}
+.mainMenu li {
+	/*overflow: hidden;*/
+	/*text-align: center;*/
+	display: inline;
+	padding: 48px;
+}
+
+.mainMenu a{
+	font-style: italic;
+	font-weight: bold;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
+	color: black;
+	padding: 13px;
+
+}
+.mainMenu a:hover{
+	background-color: rgb(245, 218, 218);
+	color: black;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 20px;
+}
+
+.section {
+	/*background-color: lightcoral;*/
+	text-align: center;
+	font-size:xx-large;
+	font-style: italic;
+	font-weight: bold;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	text-decoration: none;
+	color: black;
+
 }
