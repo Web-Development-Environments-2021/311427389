@@ -9,6 +9,7 @@
 	padding: 5px;
 	border-radius: 20px;
 	top: 0px;
+	z-index: 1;
 }
 
 .mainMenu {
@@ -51,7 +52,6 @@ h3 {
 .section{
 	text-align: center;
 	background-color: lightcyan;
-	background-color: black;
 }
 
 .about, .like {
@@ -97,4 +97,9 @@ input[type=submit] {
 
 .QRcode{
 	zoom: 65%;
+}
+
+.picture{
+	zoom: 25%;
+	width: 90%;
 }
