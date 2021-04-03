@@ -51,7 +51,7 @@ h3 {
 
 .section{
 	text-align: center;
-	background-color: lightcyan;
+	background-color:lightcyan
 }
 
 .about, .like {
@@ -100,6 +100,7 @@ input[type=submit] {
 }
 
 .picture{
-	zoom: 25%;
-	width: 90%;
+	width: 99%;
+	border-radius: 3%;
+
 }
