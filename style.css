@@ -45,19 +45,25 @@ h3 {
 	font-weight: bold;
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	color: black;
-	border-radius: 30px; 
-	margin: 15px 0 15px; 
+	/*border-radius: 30px;*/
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	margin: 0px 0px 15px; 
 }
 
 .section{
 	text-align: center;
-	background-color:lightcyan
+	background-image:url("images\\backgroundImage2.jfif");
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+
 }
 
 .about, .like {
 	text-align: center;
 	font-size: x-large;
-	font-weight: 500;
+	font-weight: 650;
 	font-style: oblique;
 }
 
@@ -102,5 +108,4 @@ input[type=submit] {
 .picture{
 	width: 99%;
 	border-radius: 3%;
-
 }
