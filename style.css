@@ -77,11 +77,15 @@ h3 {
 	font-weight: 650;
 	border-radius: 5px;
 	padding: 20px;
+	margin-left: 30%;
+	width: 40%;
+	text-align: center;
 }
 
 input[type=text], #textarea {
-	width: 50%;
+	width: 100%;
 	display: inline-block;
+	text-align: center;
 	box-sizing: border-box;
 	border: 4px solid #ccc;
 	border-radius: 4px;
@@ -90,17 +94,18 @@ input[type=text], #textarea {
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	background-color: rgb(233, 252, 239);
 	font-weight: bolder;
-	color: crimson; /* to change! color of the text in the boxes*/
+	color: black;
 }
 
-input[type=submit] {
-	width: 15%;
+input[type=button] {
+	width: 20%;
 	background-color: black;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: white;
 	border: none;
 	margin: 5px 0;
-	padding: 10px;	
+	padding: 10px;
+	cursor: pointer;
 }
 
 .QRcode{
@@ -110,6 +115,12 @@ input[type=submit] {
 .picture{
 	width: 99%;
 	border-radius: 3%;
+}
+
+.picture:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.25);
 }
 
 #picIcon{
