@@ -3,7 +3,8 @@
 	position: fixed;
 	width: 97%;
 	height: 40px;
-	background: rgb(245, 180, 180);
+	/*background: rgb(245, 180, 180);*/
+	background-color: rgb(207, 250, 196);
 	text-align: right;
 	font-size:x-large;
 	padding: 5px;
@@ -17,7 +18,7 @@
 }
 .mainMenu li {
 	display: inline;
-	padding: 11px;
+	padding: 10px;
 	
 }
 .material-icons{
@@ -34,7 +35,7 @@
 
 }
 .mainMenu a:hover{
-	background-color: rgb(245, 218, 218);
+	background-color: rgb(120, 206, 131);
 	color: black;
 	padding-top: 3px;
 	padding-bottom: 3px;
@@ -42,7 +43,7 @@
 }
 
 h3 {
-	background-color: rgb(245, 180, 180);
+	background-color: rgb(159, 223, 157);
 	text-align: center;
 	font-size:xx-large;
 	font-style: italic;
@@ -56,7 +57,7 @@ h3 {
 
 .section{
 	text-align: center;
-	background-image:url("images\\backgroundImage2.png");
+	background-image: url("images\\lightgreen.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	
@@ -78,7 +79,7 @@ h3 {
 	padding: 20px;
 }
 
-input[type=text], textarea {
+input[type=text], #textarea {
 	width: 50%;
 	display: inline-block;
 	box-sizing: border-box;
@@ -87,7 +88,7 @@ input[type=text], textarea {
 	padding: 10px;
 	font-size: large;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background-color: wheat;
+	background-color: rgb(233, 252, 239);
 	font-weight: bolder;
 	color: crimson; /* to change! color of the text in the boxes*/
 }
@@ -111,4 +112,7 @@ input[type=submit] {
 	border-radius: 3%;
 }
 
+#picIcon{
+	zoom: 12%;
+}
   

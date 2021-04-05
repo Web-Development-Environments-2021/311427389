@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
 <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Go-home.svg/1024px-Go-home.svg.png" type="image/icon type">
+<link rel="stylesheet" href="emojionearea.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="emojionearea.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 <title>Haim&Sara Website</title>
 </head>
 <body>
 <div class = "mainMenu" id="menu">
-<li><span class="material-icons">home</span></li>
+<li><img id = "picIcon" src = "https://i.pinimg.com/originals/51/f6/fb/51f6fb256629fc755b8870c801092942.png"></li>
 <li><a href="#about"><span class="material-icons">info</span>About Us</a></li>
 <li><a href="#photos"><span class="material-icons">photo</span>Our Photos</a></li>
 <li><a href="#playlist"><span class="material-icons">music_note</span>Our Playlist</a></li>
@@ -137,7 +140,11 @@ Send us a message:
 <br><br>
 <input type="text" name="email address" placeholder="Email Address"/>
 <br><br>
-<textarea name="message" placeholder="Enter Your Message"></textarea>
+<textarea id="textarea" name="message" placeholder="Enter Your Message"></textarea>
+<script>$(document).ready(function() {
+  $("#textarea").emojioneArea();
+})
+</script>
 <br><br>
 <input type="submit" value= "Send Email"/>
 </form>
