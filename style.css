@@ -55,6 +55,12 @@ h3 {
 	margin: 0px 0px 15px; 
 }
 
+h2 {
+	text-align: center;
+	font-size:large;
+	text-decoration: underline;
+}
+
 .section{
 	text-align: center;
 	background-image: url("images\\lightgreen.jpg");
@@ -97,7 +103,7 @@ input[type=text], #textarea {
 	color: black;
 }
 
-input[type=button] {
+input[type=submit] {
 	width: 20%;
 	background-color: black;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -112,15 +118,39 @@ input[type=button] {
 	zoom: 65%;
 }
 
+#spa {
+	width: 100%;
+	text-align:center;
+	font-weight: bold;
+	font-family:Verdana, Geneva, Tahoma, sans-serif
+	
+}
+
+#col1:hover{
+	background-color: white
+}
+#col2:hover{
+	background-color: white
+}
+#col3:hover{
+	background-color: white
+}
+
+.usecase {
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
 .picture{
 	width: 99%;
 	border-radius: 3%;
 }
 
 .picture:hover{
-	-ms-transform: scale(1.5);
-	-webkit-transform: scale(1.5);
-	transform: scale(1.25);
+	transform: scale(1.2);
+
 }
 
 #picIcon{
