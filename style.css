@@ -104,7 +104,7 @@ input[type=text], #textarea {
 }
 
 input[type=submit] {
-	width: 20%;
+	width: 25%;
 	background-color: black;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: white;
@@ -124,16 +124,6 @@ input[type=submit] {
 	font-weight: bold;
 	font-family:Verdana, Geneva, Tahoma, sans-serif
 	
-}
-
-#col1:hover{
-	background-color: white
-}
-#col2:hover{
-	background-color: white
-}
-#col3:hover{
-	background-color: white
 }
 
 .usecase {
